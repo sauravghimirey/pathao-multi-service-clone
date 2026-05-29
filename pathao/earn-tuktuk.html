@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earn with Tuktuk — Drive with Pathao</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
+</head>
+<body>
+<div id="nav-container"></div>
+
+<section style="text-align:center;padding:60px 5% 40px;background:linear-gradient(135deg,#fffbf0 0%,#fff8e0 100%);">
+  <h1>Earn with Your Tuktuk</h1>
+  <p style="font-size:1.1rem;color:var(--grey-700);margin-top:12px;">Become an auto rider on the highest earning platform!</p>
+</section>
+
+<div class="register-section">
+  <div>
+    <div class="register-card">
+      <h3>Register Now</h3>
+      <form id="registerForm">
+        <div class="form-group">
+          <label>Vehicle Type</label>
+          <select class="form-control"><option>Tuk Tuk</option></select>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>First Name <span class="required">*</span></label><input type="text" class="form-control" placeholder="Enter your first name" required></div>
+          <div class="form-group"><label>Last Name</label><input type="text" class="form-control" placeholder="Enter your last name"></div>
+        </div>
+        <div class="form-group"><label>Mobile Number <span class="required">*</span></label><input type="tel" class="form-control" placeholder="977XXXXXXXX" required></div>
+        <div class="form-group">
+          <label>City <span class="required">*</span></label>
+          <select class="form-control" required>
+            <option value="">Select City</option>
+            <option>Kathmandu</option><option>Lalitpur</option><option>Bhaktapur</option><option>Pokhara</option><option>Chitwan</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:8px;">Next Step <i class="ph ph-arrow-right"></i></button>
+        <p class="form-terms">By clicking this button, you are agreeing to Pathao's <a href="#">terms and privacy policy</a></p>
+      </form>
+    </div>
+  </div>
+  <div>
+    <div style="margin-bottom:40px;">
+      <div class="section-label">Why us</div>
+      <h2>Earn anytime, anywhere</h2>
+      <p style="margin-top:12px;">Being with Pathao means being on the highest earning platform!</p>
+    </div>
+    <div style="background:#fff;border-radius:var(--rl);padding:36px;box-shadow:var(--shadow);border:1px solid rgba(0,0,0,.06);">
+      <h3 style="margin-bottom:20px;">Why Join Pathao?</h3>
+      <div class="why-join-list">
+        <div class="why-item"><div class="why-icon"><i class="ph-fill ph-handshake"></i></div><div class="why-text"><strong>Your Ride is Safe with us</strong><p>Our 2-way rating system ensures both riders and users maintain a certain level of conduct.</p></div></div>
+        <div class="why-item"><div class="why-icon"><i class="ph-fill ph-gift"></i></div><div class="why-text"><strong>Earn More with Bonus</strong><p>Daily quests and special offers to earn extra regularly.</p></div></div>
+        <div class="why-item"><div class="why-icon"><i class="ph-fill ph-credit-card"></i></div><div class="why-text"><strong>Get Your Payment on Time</strong><p>Get your payment in the shortest time — guaranteed!</p></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW TO GIVE A RIDE -->
+<section class="section section-alt">
+  <div style="max-width:1100px;margin:0 auto;">
+    <div class="section-header"><h2>How can you give a ride?</h2></div>
+    <div class="steps-section" style="padding:0;margin:0;">
+      <div class="steps-list">
+        <div class="step-item active">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Download the Drive App</h3>
+            <p>Download the Pathao Drive App from Google Play.</p>
+            <div style="margin-top:14px;"><a href="https://play.google.com/store/apps/details?id=com.pathao.driver" target="_blank" rel="noopener" class="store-badge" id="drive-gp-tt"></a></div>
+          </div>
+        </div>
+        <div class="step-item"><div class="step-number">02</div><div class="step-content"><h3>Sign up and keep your status active</h3><p>Register with your verified documents. Keep your status active to receive auto-ride requests.</p></div></div>
+        <div class="step-item"><div class="step-number">03</div><div class="step-content"><h3>Get ride requests</h3><p>Accept auto ride requests and earn more by completing more trips!</p></div></div>
+      </div>
+      <div class="steps-visual" style="display:flex;align-items:center;justify-content:center;">
+        <div style="background:#111;border-radius:32px;padding:16px;box-shadow:0 30px 80px rgba(0,0,0,.25);max-width:260px;">
+          <div style="background:#1a1a1a;border-radius:20px;padding:20px;color:#fff;text-align:center;">
+            <i class="ph-fill ph-taxi" style="font-size:4rem;display:block;margin-bottom:12px;"></i>
+            <div style="font-size:.7rem;color:rgba(255,255,255,.5);margin-bottom:6px;">NEW RIDE REQUEST</div>
+            <div style="font-weight:600;font-size:.85rem;margin-bottom:6px;">New Road → Jawalakhel</div>
+            <div style="display:flex;justify-content:center;gap:16px;margin-bottom:16px;font-size:.8rem;">
+              <div><div style="color:rgba(255,255,255,.5);font-size:.7rem;">FARE</div><div style="font-weight:700;">₨95</div></div>
+              <div><div style="color:rgba(255,255,255,.5);font-size:.7rem;">DISTANCE</div><div style="font-weight:700;">4.1KM</div></div>
+            </div>
+            <div style="background:#22c55e;color:#fff;border-radius:8px;padding:12px;font-weight:700;font-size:.82rem;cursor:pointer;">ACCEPT RIDE REQUEST</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ELIGIBILITY -->
+<section class="section">
+  <div style="max-width:800px;margin:0 auto;">
+    <div class="section-header">
+      <div class="section-label">Requirements</div>
+      <h2>Know if You're Eligible to Join Us</h2>
+      <p>If you have the following, you can join us!</p>
+    </div>
+    <div class="eligibility-list">
+      <div class="eligibility-item"><div class="eligibility-num">1</div><div class="eligibility-text"><strong>Android phone</strong><p>Download and work with the Pathao Drive app.</p></div></div>
+      <div class="eligibility-item"><div class="eligibility-num">2</div><div class="eligibility-text"><strong>Valid driving license</strong><p>A valid license with appropriate auto-rickshaw/three-wheeler category.</p></div></div>
+      <div class="eligibility-item"><div class="eligibility-num">3</div><div class="eligibility-text"><strong>Own or have access to a Tuktuk</strong><p>A registered and roadworthy three-wheeler in good condition.</p></div></div>
+      <div class="eligibility-item"><div class="eligibility-num">4</div><div class="eligibility-text"><strong>Valid Citizenship Card or Passport</strong><p>A valid government-issued identity document.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<div id="footer-container"></div>
+<script src="nav.js"></script>
+<script>
+  document.getElementById('nav-container').innerHTML = renderNav('earn');
+  document.getElementById('footer-container').innerHTML = renderFooter();
+  document.getElementById('drive-gp-tt').innerHTML = gpIcon + ' Google Play';
+</script>
+</body>
+</html>

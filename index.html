@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pathao Food — Giving Your Hunger a New Option</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
+</head>
+<body>
+
+<div id="nav-container"></div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-label"><i class="ph-fill ph-fork-knife"></i> Pathao Food</div>
+    <h1>Giving your hunger<br>a new option</h1>
+    <p>Bid goodbye to your usual boring meals and say hello to diverse exotic options from thousands of restaurants.</p>
+    <div class="hero-actions">
+      <a href="https://play.google.com/store/apps/details?id=com.pathao.user" target="_blank" rel="noopener" class="btn btn-primary">
+        <i class="ph ph-google-play-logo"></i> Google Play
+      </a>
+      <a href="https://apps.apple.com/np/app/pathao/id1227524933" target="_blank" rel="noopener" class="btn btn-outline">
+        <i class="ph ph-apple-logo"></i> App Store
+      </a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <i class="ph-fill ph-motorcycle" style="font-size:12rem;color:#E8192C;filter:drop-shadow(0 20px 40px rgba(232,25,44,.2));"></i>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section">
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon"><i class="ph-fill ph-lightning"></i></div>
+      <h3>Fastest Delivery</h3>
+      <p>Get your food delivered quickly to your doorstep within 45 minutes! That's the fastest food you can get.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon"><i class="ph-fill ph-bowl-food"></i></div>
+      <h3>So Much to Choose From</h3>
+      <p>Find your favorite cuisines from thousands of restaurants we offer. Anything you crave for, we have it.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon"><i class="ph-fill ph-tag"></i></div>
+      <h3>Best Offers in Town</h3>
+      <p>The best offers and combos at the best price you can get. Grab it before it's too late!</p>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section section-alt">
+  <div class="section-header">
+    <div class="section-label">Get food with Pathao Food</div>
+    <h2>How it works</h2>
+    <p>Three simple steps to get your food delivered fast and fresh.</p>
+  </div>
+  <div class="steps-section" style="padding:0;max-width:1100px;margin:0 auto;">
+    <div class="steps-list">
+      <div class="step-item active">
+        <div class="step-number">01</div>
+        <div class="step-content">
+          <h3>Download the App</h3>
+          <p>Download the Pathao app and register yourself with your phone number. Enjoy our fast and flavourful services.</p>
+          <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;" id="index-badges"></div>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-number">02</div>
+        <div class="step-content">
+          <h3>Browse by restaurants/food</h3>
+          <p>Browse from thousands of restaurants we offer. Select the food you are craving for from the wide range of cuisine options.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-number">03</div>
+        <div class="step-content">
+          <h3>Confirm your order and wait</h3>
+          <p>Just confirm your order and enjoy the fastest delivery. Hot and fresh food will be delivered right at your doorstep.</p>
+        </div>
+      </div>
+    </div>
+    <div class="steps-visual" style="display:flex;align-items:center;justify-content:center;">
+      <div style="background:#f8f8f8;border-radius:24px;padding:40px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.1);">
+        <i class="ph ph-device-mobile" style="font-size:7rem;color:var(--red);margin-bottom:16px;display:block;"></i>
+        <div style="font-family:var(--font-h);font-weight:700;color:var(--red);font-size:1.2rem;">Pathao Food App</div>
+        <div style="color:var(--grey-500);font-size:.9rem;margin-top:8px;">50% OFF Every Friday</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TOP PARTNERS -->
+<section class="section">
+  <div class="section-header">
+    <h2>Some of our top partners</h2>
+  </div>
+  <div class="partners-grid" id="partners-grid">
+  <img src="partners.png" alt="Top Partners" width="800" height="800">
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<div class="cta-banner">
+  <h2>Ready to partner with Pathao?</h2>
+  <p>Join thousands of restaurants already on our platform and grow your business.</p>
+  <div class="cta-actions">
+    <a href="food.html" class="btn btn-white"><i class="ph ph-handshake"></i> Partner with us <i class="ph ph-arrow-right"></i></a>
+    <a href="https://play.google.com/store/apps/details?id=com.pathao.user" target="_blank" rel="noopener" class="btn" style="background:rgba(255,255,255,.15);color:#fff;"><i class="ph ph-device-mobile"></i> Download App <i class="ph ph-arrow-right"></i></a>
+  </div>
+</div>
+
+<div id="footer-container"></div>
+
+<script src="nav.js"></script>
+<script>
+  document.getElementById('nav-container').innerHTML = renderNav('');
+  document.getElementById('footer-container').innerHTML = renderFooter();
+  document.getElementById('index-badges').innerHTML = storeBadges();
+</script>
+</body>
+</html> 
